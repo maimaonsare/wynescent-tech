@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/wynescent-tech/static/css/main.416d0add.css",
+    "main.js": "/wynescent-tech/static/js/main.37cedd11.js",
+    "static/media/web.png": "/wynescent-tech/static/media/web.d6f3ca35047626ca0f8e.png",
+    "static/media/mypic2.jpg": "/wynescent-tech/static/media/mypic2.03417c01b86bb02d08b7.jpg",
+    "static/media/mypic.jpg": "/wynescent-tech/static/media/mypic.df7ddcf7d75686d1ed7c.jpg",
+    "static/media/mypic1.jpg": "/wynescent-tech/static/media/mypic1.5a465cbde6419ab5affa.jpg",
+    "static/media/mobile.png": "/wynescent-tech/static/media/mobile.d4036483c09c6e703d59.png",
+    "static/media/graphics.png": "/wynescent-tech/static/media/graphics.a42b89d206fcb3c6f122.png",
+    "static/media/responsive.png": "/wynescent-tech/static/media/responsive.8752bdd138d0bd7805ce.png",
+    "static/media/logo3.png": "/wynescent-tech/static/media/logo3.7dd59a0cf8f34585a339.png",
+    "static/media/ui-design.png": "/wynescent-tech/static/media/ui-design.944796578a1fbd948266.png",
+    "static/media/swoosh.png": "/wynescent-tech/static/media/swoosh.e7e043829a8f67420db3.png",
+    "static/media/webdesign.png": "/wynescent-tech/static/media/webdesign.1f0250db6026d84e355e.png",
+    "static/media/arrow-right.png": "/wynescent-tech/static/media/arrow-right.e834aa7912606dbc509d.png",
+    "static/media/arrow-left.png": "/wynescent-tech/static/media/arrow-left.737c04cd13c9dfdc7317.png",
+    "static/media/design.png": "/wynescent-tech/static/media/design.26a880ecc6c9ae048327.png",
+    "static/media/ologogo.png": "/wynescent-tech/static/media/ologogo.5397df385e6f7d989c5c.png",
+    "static/media/check-white.png": "/wynescent-tech/static/media/check-white.05dd93f8458134962088.png",
+    "static/media/menu-icon.png": "/wynescent-tech/static/media/menu-icon.a36d174c31f74c5c4bfb.png",
+    "static/media/vdpartner.png": "/wynescent-tech/static/media/vdpartner.9a09a95cbbe218ff2082.png",
+    "static/media/arrow.png": "/wynescent-tech/static/media/arrow.4fc1aa8cf71950e03daf.png",
+    "index.html": "/wynescent-tech/index.html",
+    "main.416d0add.css.map": "/wynescent-tech/static/css/main.416d0add.css.map",
+    "main.37cedd11.js.map": "/wynescent-tech/static/js/main.37cedd11.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.416d0add.css",
+    "static/js/main.37cedd11.js"
+  ]
+}
