@@ -1,0 +1,76 @@
+ .join {
+    display: flex;
+    padding: 0 2rem;
+    gap: 10rem;
+}
+.join-left {
+    color: aliceblue;
+    font-size: 2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    position: relative;
+}
+.join-left>hr {
+    position: absolute;
+    width: 14rem;
+    border: 2px solid var(--deeporange);
+    border-radius: 22%;
+    margin: -10px 0;
+}
+
+.join-right {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.email-contact {
+    display: flex;
+    gap: 2rem;
+    background-color: gray;
+    padding: 0.5rem 1rem;
+    
+}
+.email-contact>input {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color:aliceblue;
+}
+::placeholder {
+    color:beige;
+}
+.btn-join {
+    background-color: var(--deeporange);
+    padding: 0.3rem;
+    font-weight: bold;
+    border: 0.3rem solid transparent;
+    transition: 280ms all;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    height:fit-content;
+    color: aliceblue;
+}
+.btn-join:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+  }
+
+  /*Responsive design */
+  @media screen and (max-width: 768px) {
+       .join {
+        flex-direction: column;
+        gap: 1rem;
+       } 
+       .join-left {
+        font-size: x-large;
+        flex-direction: column;
+       }
+       .join-right {
+        padding: 2rem;
+       }
+       ::placeholder {
+        color:rgb(255, 255, 255);
+    }
+    
+  }

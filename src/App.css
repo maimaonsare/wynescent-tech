@@ -1,0 +1,50 @@
+:root {
+  --blue: #268caa;
+  --indigo: #B45F04;
+  --grey: #6E6E6E;
+  --bingewhite: #EFFDFF;
+  --black: #000000;
+  --deepblue: #06427a;
+  --deeporange: #FF8000;
+  --tileblue: #0B4C5F;
+  --appColor: #1B4550;
+}
+
+.App{
+  mix-blend-mode: overlay;
+  background-color: var(--appColor);
+  display: flex;
+  flex-direction: column;
+  gap: 6rem;
+  overflow: hidden;
+}
+::-webkit-scrollbar{
+  display: none;
+}
+.hollow-text{
+  color: transparent;
+  font-family: 'Open Sans', sans-serif;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: var(--deeporange);
+}
+.btn{
+  background-color: aliceblue;
+  padding: 0.5rem;
+  font-weight: 700;
+  border: 4rem solid transparent;
+  transition: 280ms all;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  height:fit-content;
+}
+.btn:hover{
+  cursor: pointer;
+}
+.blur {
+  background: rgba(253, 120, 43, 0.69);
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(150px);
+  z-index: -9;
+}

@@ -1,0 +1,35 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    width: 9rem;
+    height: 4rem;
+}
+.menus{
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+    color:aliceblue;
+}
+.menus>li {
+    cursor: pointer;
+}
+.menus>li:hover {
+    cursor: pointer;
+    color: var(--deeporange);
+}
+
+/*Responisve menu */
+@media screen and (max-width: 768px) {
+    .header> :nth-child(2){
+        position: fixed;
+        z-index: 99;
+        right: 2rem;
+    }
+    .menus {
+        flex-direction: column;
+        background-color: var(--grey);
+        padding: 2rem;
+    }
+}
