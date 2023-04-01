@@ -14,7 +14,7 @@ function Join() {
             </div>
             <div>
                 <span> Journey With</span>
-                <span className='hollow-text'> Wynescent Tech</span>
+                <span className='hollow-text'> Wynescent Tech!</span>
             </div>
         </div>
         <div className="join-right">
